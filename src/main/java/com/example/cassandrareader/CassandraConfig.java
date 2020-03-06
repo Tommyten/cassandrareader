@@ -15,12 +15,6 @@ public class CassandraConfig extends AbstractCassandraConfiguration {
     @Value("${spring.data.cassandra.keyspace:placeholder}")
     private String keySpace;
 
-    @Value("${spring.data.cassandra.username}")
-    private String username;
-
-    @Value("${spring.data.cassandra.password}")
-    private String password;
-
     @Value("${spring.data.cassandra.schema-action}")
     private String schemaAction;
 
